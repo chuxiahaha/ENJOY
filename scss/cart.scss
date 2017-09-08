@@ -1,0 +1,65 @@
+
+.caiLike{
+    width: 100%;
+    h1{
+        width: 100%;
+        font-size:1.0rem;
+        text-align: center;
+        line-height: 2rem;
+    }
+    
+     .likeList{
+         width: 50%;
+         height: 12rem;
+         float: left;
+         font-size:0.6rem;        
+         img{
+             width: 90%;           
+             padding: 4%;
+         }
+         p{
+             padding: 4%;
+         }
+        
+     }  
+      .pricess{
+             color:#f00;
+         } 
+    }
+.cartfooters{
+    width: 100%;
+    height: 3.3rem;
+    line-height: 3.3rem;
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    font-size: 0.6rem;
+    border-top:1px solid #eee;
+    .foochex{
+        position: absolute;
+        left: 8%;
+        top: 6%;
+    }
+    .point,
+    .totalyun,
+    .zhifu{
+       width: 33.3%;
+       float: left;      
+       text-align: center;
+      color: #f00;
+    }
+  
+       #xunazho{
+           color: #f00;
+            
+        }
+    .zhifu{
+        background: #f00;
+     color: #fff;
+     font-size: 0.8rem;
+    }
+}
+        
+  
+    

@@ -1,0 +1,122 @@
+#content{
+    width: 100%;
+   // position: relative;
+}
+#dis_Cont{
+    width: 100%;
+     overflow: hidden;
+    .titles{
+        width: 90%;
+        padding: 5%;
+        h2{ 
+            font-size: 20px;
+        }
+        p{
+            font-size:0.5rem;
+        }
+     
+    }
+}
+ .swiper-container {
+        width: 100%;       
+    .swiper-slide {
+        float: left;  
+        width:100%;
+        height: 235px;
+        margin-top: 3%;
+        overflow: hidden;        
+      img{
+          margin-top: 4%;
+          padding: 0 4%;
+          width: 90%;
+          height: 10rem;
+      }
+      span{
+          font-size:0.4rem;
+          -webkit-transform: scale(0.8);
+          margin-left: 4%;
+          color: red;
+       }
+       h3{
+           font-size: 0.8rem;
+           text-indent: 4%;
+           
+       }   
+      p{
+        font-size: 0.4rem;
+        color: #666;
+        -webkit-transform: scale(0.9);             
+      }
+    }
+}
+
+#other_list{
+    width: 100%;
+    height:4rem ;
+    overflow: hidden;
+    padding: 2%;
+    border-top:1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    font-size: 0.6rem;
+      
+    .swiper-slide {                       
+     
+        margin-left: 2%;
+        height: 3rem;
+        padding: 2% 2% 1% 1%;
+        border: 1px solid #ccc;
+        float: left;
+        background: #555;
+        opacity: .4;
+        color: #fff;
+        text-align: center;
+        p{
+           font-size: 0.3rem;
+           -webkit-transform: scale(0.8);
+        }
+    }
+}
+    
+.choicelist{
+    width: 100%;    
+    border-bottom: 1px solid #ccc;
+   height: 8rem;
+    .choic{
+        width: 100%;
+        position: relative;
+        margin-top: 4%;
+       height:3rem;      
+        h5{
+           font-size:1rem; 
+           margin-left:4% ;
+           font-weight: 900;
+        }
+        p{
+            font-size: 0.4rem;
+            -webkit-transform: scale(0.9);
+            color: #ccc;
+        }
+        span{
+            display: block;
+            position: absolute;
+            top: 2%;
+            right: 0;
+            color: #f00;
+            font-size: 0.8rem;
+            margin-right:3% ;
+        }
+    }
+    ul{
+        width: 100%;
+    }
+    li{
+        width: 30%;      
+        float: left;
+        img{
+            width: 100%;
+            height:100%;
+            
+        }
+    }
+}
+ 
